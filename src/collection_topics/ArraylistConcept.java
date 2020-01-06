@@ -23,7 +23,7 @@ public class ArraylistConcept {
 		ar.add("Kranthi");
 	
 		System.out.println(ar.size());
-		
+		System.out.println("list is"+ar);
 		ar.add('K');
 		ar.add(true);
 		System.out.println(ar.size()); // Size of array
@@ -55,6 +55,10 @@ public class ArraylistConcept {
 	
 	Iterator<employee> it=	ar3.iterator();
 	
+	System.out.println("************for********");
+	for(employee e:ar3) {
+		System.out.println(e);
+	}
 	while(it.hasNext()) {
 		employee em=it.next();
 		System.out.println(em.id);
