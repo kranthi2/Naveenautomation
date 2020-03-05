@@ -17,6 +17,7 @@ public class testcar {
 		c.start();
 		c.stop();
 		c.refill();
+		c.engine();
 		
 		System.out.println("********");
 		//Top casting

@@ -13,13 +13,13 @@ public class loaclAndGlobalVar {
 		
 		loaclAndGlobalVar obj = new loaclAndGlobalVar();
 		System.out.println(obj.s);
-		
-		
+		obj.m1();
 	}
 
 	public void m1() {
 		int i=20;   //Local variable
 		int j=30;
+		System.out.println(i+j);
 		
 	}
 }

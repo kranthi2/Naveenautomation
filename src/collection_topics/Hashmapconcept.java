@@ -32,16 +32,18 @@ public class Hashmapconcept {
 			System.out.println(e.getKey()+" "+e.getValue());	
 		}
 		
+		System.out.println("******************");
 		HashMap<Integer, employee> emp  = new HashMap<Integer,employee>();
 		
 		employee e1 = new employee(1, "Kranthi", "QA");
 		employee e2 = new employee(2, "Naveen", "Dev");
 		employee e3 = new employee(3,"AK","QA");
 		
+//		HashMap<Integer, employee> emp  = new HashMap<Integer,employee>();
 		emp.put(1, e1);
 		emp.put(2, e2);
 		emp.put(3, e3);
-
+		
 		for(Entry<Integer, employee> ob: emp.entrySet()){
 			int key = ob.getKey();
 			employee em = ob.getValue();

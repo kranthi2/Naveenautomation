@@ -36,6 +36,7 @@ public class twoDimArray {
 				
 				System.out.print(x[row][col]+" ");
 			}
+			System.out.println();
 		}
 	}
 
